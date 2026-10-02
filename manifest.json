@@ -1,0 +1,14 @@
+{
+  "channels": {
+    "stable": {
+      "version": "1.2.0",
+      "kind": "code",
+      "url": "https://raw.githubusercontent.com/Jeff7rogers/harness-bom-releases/main/packs/code-1.2.0.zip",
+      "sha256": "438aa3829172467aa83005c307788eef25b7eb82588721f677ae668ebdbbb871",
+      "size": 149087,
+      "needs_runtime": "1.1.0",
+      "installer_url": "https://github.com/Jeff7rogers/harness-bom-releases/releases/latest",
+      "notes": "Release 1.2.0\n\nSpreadsheet pricing, the usage screen, and archive/delete.\n\nRUNTIME stays at 1.1.0: nothing here needs anything the installer puts on the\nmachine, so once a PC is on 1.2.0 every one of these changes could have been a\n128 KB pack rather than an installer. This release is the one that gets them\nonto that footing.\n\nThe publish step pushes HEAD:main explicitly, so it works whether the releases\nrepo was created with a README or is still completely empty.\n\nCo-Authored-By: Claude Opus 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01GCum9qXZKKuTCP7HyAo36x"
+    }
+  }
+}
